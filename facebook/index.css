@@ -1,0 +1,320 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 1000px;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .search {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+.search .icon {
+    width: 60px;
+    height: 100%;
+}
+
+.icon .img {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search .input {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 12px;
+    height: 60%;
+}
+
+.input .text {
+    outline: none;
+    font-size: 14px;
+}
+
+.header .link {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link .item {
+    width: 20%;
+    height: 100%;
+    padding-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header .notification {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+.notification .item {
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.notification i{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    margin-top: 10px;
+    height: 930px;
+    display: flex;
+}
+
+.main .side-bar {
+    width: 25%;
+    height: 100%;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.side-bar-top {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid gray;
+}
+
+.side-bar-bottom {
+    width: 100%;
+    height: 50%;
+}
+
+.side-bar-top .item {
+    width: 100%;
+    height: 45px;
+    padding-top: 5px;
+}
+
+.side-bar-bottom .item {
+    width: 100%;
+    height: 45px;
+    padding-top: 5px;
+    display: flex;
+}
+
+.side-bar-top .item i {
+    font-size: 20px;
+}
+
+.side-bar-bottom .item img {
+    width: 35px;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.side-bar-bottom .item p {
+    font-size: 18px;
+    color: black;
+    margin-left: 10px;
+}
+
+.side-bar-bottom p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: gray;
+}
+
+.main .mid {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.mid .top-mid {
+    width: 100%;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.top-mid .status {
+    width: 97%;
+    height: 60%;
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+    display: flex;
+}
+
+.status .icon {
+    width: 70px;
+    height: 70px;
+}
+
+.status .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.status .input input {
+    width: 100%;
+}
+
+.status .input {
+    border: 1px solid black;
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 50px;
+}
+
+.status .input .text {
+    font-size: 16px;
+    background-color: darkgrey;
+    outline: none;
+}
+
+.top-mid .option {
+    width: 97%;
+    height: 40%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.option .item {
+    font-size: 20px;
+    padding: 5px;
+    width: 33%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.mid .middle-mid {
+    margin-top: 15px;
+    height: 200px;
+    display: flex;
+}
+
+.middle-mid .item {
+    margin-right: 10px;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.mid .bot-mid {
+    margin-top: 10px;
+    height: calc(100% - 320px - 14px);
+    padding: 5px;
+}
+
+.bot-mid .item {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.main .right-main {
+    width: 25%;
+    height: 100%;
+}
+
+.right-main .info {
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid gray;
+}
+
+.right-main .contact {
+    width: 100%;
+    height: calc(100% - 210px);
+    overflow: scroll;
+}
+
+.contact, .info p {
+    font-size: 20px;
+    color: gray;
+    margin-top: 15px;
+}
+
+.contact .icon {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.contact .icon .img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact .icon p {
+    margin-top: 15px;
+    color: black;
+}
+
+.contact .icon img {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .side-bar, .header .search {
+        display: none;
+    }
+
+    .main .mid {
+        width: 75%;
+    }
+
+    .header .link {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .right-main, .header .notification {
+        display: none;
+    }
+
+    .main .mid {
+        width: 100%;
+    }
+
+    .header .link {
+        width: 100%;
+    }
+}
